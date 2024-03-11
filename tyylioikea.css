@@ -453,4 +453,17 @@ footer {
 }
 
 
+#toimintakehote {
+    border: 2px transparent;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 570px;
+    margin-top: 30px;
+}
     
