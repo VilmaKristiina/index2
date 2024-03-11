@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion&Culture Magazine</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyylioikea.css">
+
+</head>
+<body class="toinenSivu">
+         <div class="banner">
+		    <header id="etusivu">
+			    <a href="index.html" class="animated-link">
+				    <h1 class="animated-text">Fashion&Culture Magazine</h1>
+			    </a>
+		        <nav>
+                    <a href="galleria.html">Gallery</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="yhteys1.html">Contact us</a>
+                </nav>
+            
+        </div> 
+
+</header>
+
+<h2 id="weeks">Today's blog posts</h2>
+<p id="selitys">Our blog posts are carefully curated from private editors and <br> delivered to you from our team. 
+    They discuss the hottest topics related <br> to fashion and culture. Just click on what interests you and enjoy!
+</p>
+
+<hr id="hr">
+<section class="grid-container2" id="kahvimme">
+    <div class="grid-kuva6">
+        <figure id="figure">
+            <img class="cowboy" src="cowboy.jpeg"
+            alt="ruskeat cowboy bootsit tuolilla kuvattuna">
+           
+        </figure>
+     </div>
+
+    <div class="grid-teksti1">
+        <h3 id="trending">Currently trending </h3>
+        <p> Cowboy boots, popular in the 70s and 80s, have made a comeback in fashion 
+            and are currently one of the biggest fashion trends... </p> <p id="Read">READ MORE</p>
+               
+               
+             
+    </div>
+
+	</div>
+
+</div>	
+
+
+</section>
+
+<hr id="hr">
+       
+<section class="grid-container3" id="kahvimme">
+    <div class="grid-kuva3">
+        <figure id="figure3">
+            <img class="vintage-auto" src="vintage.auto.jpg"
+            alt="Vanha vihreä cadillac auto tiellä">
+           
+        </figure>
+     </div>
+
+    <div class="grid-teksti3">
+        <h4 id="cars">Cars</h4>
+        <p> Today's car related topic is about vintage cars like Cadillacs and their rise... </p> <p id="Read">READ MORE</p>
+               
+               
+             
+    </div>
+
+	</div>
+</div>	
+</section>
+
+<hr id="hr">
+       
+<section class="grid-container4" id="kahvimme">
+    <div class="grid-kuva4">
+        <figure id="figure4">
+            <img class="sistus" src="sisustus.jpeg"
+            alt="Valoisa kuva huoneesta jossa lämmin sistus, puiset tuolit ja sinisen sävyinen sohva">
+           
+        </figure>
+     </div>
+
+    <div class="grid-teksti4">
+        <h5 id="trending">Interior design </h5>
+        <p>Discussing the effect of warm and neutral colors on interior design and how colors affect comfort in your environment... </p> <p id="Read">READ MORE</p>
+               
+               
+             
+    </div>
+
+	</div>
+</div>	
+</section>
+
+<hr id="hr">
+
+<section class="grid-container2" id="kahvimme">
+    <div class="grid-kuva6">
+        <figure id="figure">
+            <img class="cowboy" src="denim.jpeg"
+            alt="nainen istuu tuolilla kuvattuna koko farkku asussa, takki ja housut farkkua">
+           
+        </figure>
+     </div>
+
+    <div class="grid-teksti1">
+        <h6 id="trending">Fashion </h6>
+        <p> The denim on denim look, very popular and well-known from the 90s, has also made a comeback... </p> <p id="Read">READ MORE</p>
+               
+               
+             
+    </div>
+
+	</div>
+</div>	
+</section>
+       
+<hr id="hr">
+
+<script>
+    window.addEventListener('scroll', function() {
+        var footer = document.querySelector('footer');
+        var scrollPosition = window.innerHeight + window.scrollY;
+        var pageHeight = document.body.offsetHeight;
+
+        if (scrollPosition >= pageHeight && scrollPosition < pageHeight + window.innerHeight) {
+            footer.classList.add('show-footer');
+        } else {
+            footer.classList.remove('show-footer');
+        }
+    });
+</script>
+
+
+<footer id="footer">
+	<p>Copyright © 2024, Vilma Savolainen.</p>
+</footer>
+
+
+	
+</body>
+</html>

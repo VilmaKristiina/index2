@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion&Culture Magazine</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyylioikea.css">
+
+</head>
+<body class="toinenSivu">
+         <div class="banner">
+		    <header id="etusivu">
+			    <a href="index.html" class="animated-link">
+				    <h1 class="animated-text">Fashion&Culture Magazine</h1>
+			    </a>
+		        <nav>
+                    <a href="galleria.html">Gallery</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="yhteys1.html">Contact us</a>
+                </nav>
+            
+        </div> 
+
+</header>
+
+<h2 id="galleria">This week's Gallery to inspire you, <br> made by our photographers</h2>
+
+<section class="galleria-container">
+    <!-- Kuvagalleria -->
+    <div class="grid-kuva">
+        <figure>
+            <img id="vuorikuva" src="huone.jpeg"
+                alt="Kuva huoneesta, jossa retro tv, kasveja ja värikkäitä tauluja.">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+
+    <!-- Voit lisätä muita kuvia samalla kaavalla -->
+    <div class="grid-kuva">
+        <figure>
+            <img src="puhelu.jpeg" alt="Kuva 2"
+             alt="Malli kuva, jossa mies istuu lattialla ja puhuu vanhanaikaiseen puhelimeen.">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+
+    <div class="grid-kuva">
+        <figure>
+            <img src="cadi.jpeg" alt="Kuva 3"
+            alt="Sininen cadillac auto kuvattu taiteellisesti">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+
+    <div class="grid-kuva">
+        <figure>
+            <img src="disco.jpeg" alt="Kuva 4"
+            alt="Nainen nojaa auton konepeltiin ja jalan alla on discopallo.">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+
+    <div class="grid-kuva">
+        <figure>
+            <img src="talo.jpeg" alt="Kuva 5"
+            alt="Kuva huoneesta jossa värikäs sisustus ja ikkunasta paistaa aurinko">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+
+    <div class="grid-kuva">
+        <figure>
+            <img src="paita.jpeg" alt="Mallikuva zoomattuna, nainen istuu tuolilla valkoinen paita ja farkut päällä">
+            <figcaption></figcaption>
+        </figure>
+    </div>
+</section>
+       
+
+
+<script>
+    window.addEventListener('scroll', function() {
+        var footer = document.querySelector('footer');
+        var scrollPosition = window.innerHeight + window.scrollY;
+        var pageHeight = document.body.offsetHeight;
+
+        if (scrollPosition >= pageHeight && scrollPosition < pageHeight + window.innerHeight) {
+            footer.classList.add('show-footer');
+        } else {
+            footer.classList.remove('show-footer');
+        }
+    });
+</script>
+
+
+<footer id="footer">
+	<p>Copyright © 2024, Vilma Savolainen.</p>
+</footer>
+
+
+	
+</body>
+</html>
